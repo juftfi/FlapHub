@@ -11,8 +11,8 @@ export default async function handler(req, res) {
   const TWITTER_CLIENT_ID = process.env.TWITTER_CLIENT_ID;
   const TWITTER_CLIENT_SECRET = process.env.TWITTER_CLIENT_SECRET;
   // ⚠️ Set these in Vercel environment variables!
-  const TWITTER_CALLBACK_URL = process.env.TWITTER_CALLBACK_URL || 'https://yourdomain.com/api/auth/callback';
-  const FRONTEND_URL = process.env.FRONTEND_URL || 'https://yourdomain.com';
+  const TWITTER_CALLBACK_URL = process.env.TWITTER_CALLBACK_URL || 'https://flaphub.vercel.app/api/auth/callback';
+  const FRONTEND_URL = process.env.FRONTEND_URL || 'https://flaphub.vercel.app';
   const SESSION_SECRET = process.env.SESSION_SECRET || process.env.PRIVATE_KEY || 'fallback-secret-key';
 
   try {

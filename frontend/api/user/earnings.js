@@ -66,7 +66,7 @@ function deriveBeneficiary(twitterUserId, privateKey) {
 export default async function handler(req, res) {
   // Enable CORS with credentials
   // ⚠️ Update with your production domains!
-  const allowedOrigins = ['https://yourdomain.com', 'https://www.yourdomain.com', 'http://localhost:8080'];
+  const allowedOrigins = ['https://flaphub.vercel.app', 'https://www.flaphub.vercel.app', 'http://localhost:8080'];
   const origin = req.headers.origin;
   
   if (allowedOrigins.includes(origin)) {

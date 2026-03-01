@@ -6,7 +6,7 @@ const states = new Map();
 export default function handler(req, res) {
   const TWITTER_CLIENT_ID = process.env.TWITTER_CLIENT_ID;
   // ⚠️ Set in Vercel environment variables!
-  const TWITTER_CALLBACK_URL = process.env.TWITTER_CALLBACK_URL || 'https://yourdomain.com/api/auth/callback';
+  const TWITTER_CALLBACK_URL = process.env.TWITTER_CALLBACK_URL || 'https://flaphub.vercel.app/api/auth/callback';
 
   if (!TWITTER_CLIENT_ID) {
     return res.status(500).json({ error: 'Twitter OAuth not configured' });

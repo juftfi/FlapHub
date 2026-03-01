@@ -227,7 +227,7 @@ Key settings:
 
 ## Links
 
-- 🌐 Website: [Your Domain](https://yourdomain.com)
+- 🌐 Website: [Your Domain](https://flaphub.vercel.app)
 - 🐦 Twitter: [@YourBot](https://x.com/YourBot)
 - 💬 Telegram: [Your Community](https://t.me/YourCommunity)
 - 📜 Flap Protocol: [flap.sh](https://flap.sh)

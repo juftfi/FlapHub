@@ -48,7 +48,7 @@ function showLoading(element, text = 'Loading...') {
 // Copy token address to clipboard
 function copyTokenAddress() {
   const addressEl = document.getElementById('exampleTokenAddress');
-  const fullAddress = addressEl?.dataset.full || '0x03d14efb32435cd6b304c062dac3606c06f87777';
+  const fullAddress = addressEl?.dataset.full || '7777';
   
   navigator.clipboard.writeText(fullAddress).then(() => {
     // Visual feedback

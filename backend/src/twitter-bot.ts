@@ -324,7 +324,7 @@ async function processTweet(tweet: Tweet): Promise<void> {
         : '';
       
       // Claim URL from config
-      const claimUrl = config.frontendUrl || 'yourdomain.com';
+      const claimUrl = config.frontendUrl || 'flaphub.vercel.app';
       const successMessage = 
         `$${symbol} created!\n` +
         taxLine +

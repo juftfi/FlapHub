@@ -1,0 +1,54 @@
+# ============================================
+# FlapX - Git Ignore
+# ============================================
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Keystore (Encrypted Private Keys)
+keystore.json
+*.keystore
+
+# Private Keys
+*.pem
+*.key
+private_key*
+
+# User Data
+data/
+tokens.json
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+*.tar.gz
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+
+# Vercel
+.vercel
+
+# Local config overrides
+config.local.js
+*.local.js

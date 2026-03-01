@@ -1,0 +1,8 @@
+{
+  "name": "flapx-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "viem": "^2.21.0"
+  }
+}

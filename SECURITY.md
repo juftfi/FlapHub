@@ -212,7 +212,7 @@ function validateSymbol(symbol) {
 
 If you discover a security vulnerability, please:
 
-1. **Do NOT** create a public GitHub issue
+1. **Do NOT** create a public GitAgent issue
 2. Contact the team directly via DM on Twitter
 3. Allow reasonable time for a fix before disclosure
 

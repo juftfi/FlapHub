@@ -539,7 +539,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 // Token Data Functions
 // ============================================
 
-const EXAMPLE_TOKEN_ADDRESS = '0x03d14efb32435cd6b304c062dac3606c06f87777';
+const EXAMPLE_TOKEN_ADDRESS = '0xe8facf9ce44de5f207ee65fd93c1349b7c417777';
 
 /**
  * Fetch token market data from DexScreener API
